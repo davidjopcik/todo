@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Menu from "./sharedComponents/Menu";
+import Game from "./sharedComponents/TicTacToe/Game";
+import MyButton from "./sharedComponents/MyButton";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Menu menuName="Menu SDA" menuItems={["Odkaz 1", "Odkaz 2", "Odkaz 3"]} />
+      <Game gameName={"Piškvorky"} NumberOfPlayers={4} />
+      <MyButton text={"Tlačitko 1"}/>
+      <MyButton text={"Tlačitko 2"}/>
+      <MyButton text={"Tlačitko 3"}/>
     </div>
   );
 }
