@@ -7,9 +7,9 @@ function App() {
     <div>
       <Menu menuName="Menu SDA" menuItems={["Odkaz 1", "Odkaz 2", "Odkaz 3"]} />
       <Game gameName={"Piškvorky"} NumberOfPlayers={4} />
-      <MyButton text={"Tlačitko 1"}/>
-      <MyButton text={"Tlačitko 2"}/>
-      <MyButton text={"Tlačitko 3"}/>
+      <MyButton text={"Tlačitko 1"} btnNumber={" 1 "} counter={0} />
+      <MyButton text={"Tlačitko 2"}btnNumber={" 2 "} counter={0}/>
+      <MyButton text={"Tlačitko 3"}btnNumber={" 3 "} counter={0}/>
     </div>
   );
 }
