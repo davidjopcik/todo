@@ -16,6 +16,9 @@ import SearchFilter from "./SearchFilter";
 import Weather from "./sharedComponents/WeatherApp";
 import PhoneValidation from "./sharedComponents/PhoneValidation";
 import Todo from "./sharedComponents/Todo";
+import TodoTest from "./sharedComponents/TodoTest";
+import Inputs from "./sharedComponents/Inputs";
+import CarForm from "./sharedComponents/ValidateForm";
 
 
 function App() {
@@ -36,6 +39,9 @@ function App() {
           <Route path="/weatherapp" element={<Weather/>} />
           <Route path="/phoneValidation" element={<PhoneValidation/>} />
           <Route path="/todo" element={<Todo/>} />
+          <Route path="/todoTest" element={<TodoTest/>} />
+          <Route path="/inputs" element={<Inputs/>} />
+          <Route path="/carform" element={<CarForm/>} />
 
 
 
